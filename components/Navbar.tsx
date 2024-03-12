@@ -11,7 +11,7 @@ const Navbar = () => {
             src="/horselogo.jpg"
             alt="logo"
             width={40}
-            height={40}
+            height={50}
             className="w-full h-full object-contain rounded-full"
           />{" "}
         </div>
