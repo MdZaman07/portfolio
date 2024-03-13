@@ -6,9 +6,10 @@ interface Props {
   image: string;
   title: string;
   text: string;
+  githubUrl: string;
 }
 
-const ProjectCard = ({ image, title, text }: Props) => {
+const ProjectCard = ({ image, title, text, githubUrl }: Props) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
 
@@ -20,8 +21,10 @@ const ProjectCard = ({ image, title, text }: Props) => {
   }
 
   return (
-    <div
-      onClick={handleFlip}
+    <a
+      href={githubUrl}
+      target="_blank"
+      rel="noopener noreferrer"
       className="w-[450px] h-[280px] rounded-md cursor-pointer"
     >
       <motion.div
@@ -51,7 +54,7 @@ const ProjectCard = ({ image, title, text }: Props) => {
           </div>
         </div>
       </motion.div>
-    </div>
+    </a>
   );
 };
 

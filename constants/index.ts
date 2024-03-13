@@ -32,8 +32,9 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Redux",
-    Image: "/redux.png",
+    ////////
+    name: "Python",
+    Image: "/python.png",
     width: 80,
     height: 80,
   },
@@ -51,8 +52,16 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Framer Motion",
-    Image: "/framer.png",
+    ////
+    name: "Java",
+    Image: "/java2.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    ////
+    name: "Swift",
+    Image: "/swift.png",
     width: 80,
     height: 80,
   },
@@ -78,16 +87,8 @@ export const SkillData = [
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
-  },
-  {
-    name: "Facebook",
-    src: "/facebook.svg",
-  },
-  {
-    name: "Instagram",
-    src: "/discord.svg",
+    name: "Linkedin",
+    src: "/linkedin.svg",
   },
 ];
 export const Projects = [
@@ -95,21 +96,25 @@ export const Projects = [
     title: "Modern Nextjs Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/NextWebsite.png",
+    githubUrl: "https://github.com/MdZaman07/eShop",
   },
   {
     title: "Space Themed Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/SpaceWebsite.png",
+    githubUrl: "https://github.com/MdZaman07/eShop",
   },
   {
     title: "Modern Nextjs Portfolio",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/WebPortfolio.png",
+    githubUrl: "https://github.com/MdZaman07/eShop",
   },
   {
     title: "Matrix themed Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/Matrix.png",
+    githubUrl: "https://github.com/MdZaman07/eShop",
   },
 ];
 

@@ -45,6 +45,9 @@ const Page = () => {
                 width={skill.width}
                 height={skill.height}
               />
+              <label className="text-white text-[20px] font-semibold">
+                {skill.name}
+              </label>
             </SwiperSlide>
           ))}
         </Swiper>
@@ -69,6 +72,9 @@ const Page = () => {
                 width={skill.width}
                 height={skill.height}
               />
+              <label className="text-white text-[20px] font-semibold">
+                {skill.name}
+              </label>
             </SwiperSlide>
           ))}
         </Swiper>
