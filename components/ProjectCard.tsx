@@ -109,7 +109,7 @@ const ProjectCard = ({ image, title, text, githubUrl }: Props) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={() => setIsLinkClicked(true)}
-      className="w-[450px] h-[280px] rounded-md cursor-pointer pr-10 pb-10"
+      className="w-[350px] h-[280px] rounded-md cursor-pointer pr-10 pb-10"
     >
       <label className="text-white text-[20px] font-semibold flex-auto">
         {title}
