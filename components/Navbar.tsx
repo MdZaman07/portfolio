@@ -1,6 +1,7 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
+import Navigation from "./Navigation";
 
 const Navbar = () => {
   return (
@@ -15,14 +16,13 @@ const Navbar = () => {
             className="w-full h-full object-contain rounded-full"
           />{" "}
         </div>
-        <h1 className="text-white text-[25px] font-semibold">
-          Webchain{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-            {" "}
-            Dev{" "}
-          </span>{" "}
+        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 text-[25px] font-semibold">
+          Pulok
         </h1>
       </div>
+      {/* <div className="flex-grow ml-50"> */}
+      <Navigation />
+      {/* </div> */}
 
       <a
         href="https://www.linkedin.com/in/pulok-uzzaman-06113a27b/"
@@ -33,8 +33,9 @@ const Navbar = () => {
             key={social.name}
             src={social.src}
             alt={social.name}
-            width={28}
-            height={28}
+            width={50}
+            height={50}
+            className=" object-contain rounded-full"
           />
         ))}
       </a>

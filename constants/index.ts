@@ -93,27 +93,45 @@ export const Socials = [
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "EBuzz",
+    text: "A full stack React NextJS ecommerce application offering a wide range of products and services.",
+    src: "/EBuzz.png",
     githubUrl: "https://github.com/MdZaman07/eShop",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "Promotion Network",
+    text: "A full stack iOS application coded in Swift that allows users to create and share promotions with other users.",
+    src: "/promotionNetwork.png",
     githubUrl: "https://github.com/MdZaman07/eShop",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    title: "Incident Reporting System",
+    text: "A full stack web application that allows users to report incidents and track their progress. CI and CD pipeline implemented using Azure DevOps.",
+    src: "/incident_reporting.svg",
     githubUrl: "https://github.com/MdZaman07/eShop",
   },
   {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    title: "Travelling Salesman Problem",
+    text: "Explored the Travelling Salesman Problem using Python and implemented a solution using the Hill Climbing AI model.",
+    src: "/travellingSalesman.png",
+    githubUrl: "https://github.com/MdZaman07/eShop",
+  },
+  {
+    title: "Digit Recognition (Zernike Moments)",
+    text: "Explored a multi-class classification problem using Python and implemented a solution using the Forward Neural Network Model.",
+    src: "/digit_recognition.png",
+    githubUrl: "https://github.com/MdZaman07/eShop",
+  },
+  {
+    title: "Sentiment Analysis",
+    text: "Trained a Natural Language Processing model, called Naive Bayes using Python to classify the sentiment of a given text as positive or negative.",
+    src: "/sentiment_analysis.png",
+    githubUrl: "https://github.com/MdZaman07/eShop",
+  },
+  {
+    title: "Stock Prediction",
+    text: "Explored the Stock Prediction problem using Python and implemented a solution using the K-nearest neighbours AI technique.",
+    src: "/stock_prediction.png",
     githubUrl: "https://github.com/MdZaman07/eShop",
   },
 ];

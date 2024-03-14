@@ -10,21 +10,22 @@ export default function Home() {
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-semibold">
-            Make anything possible with
+            Harnessing the power of IT & creativity to shape the
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
-              Web Development
+              Future
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
-            lorens ipsum dolor sit asmdfeq asdfdas asdasd asfadfs adfqeweqw erqw
+            A driven graduate equipped with internship experience and diverse
+            project involvement, ready to embark on a dynamic IT career journey.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
-              href="https://github.com/MdZaman07"
+              href="https://drive.google.com/file/d/1yJnrlZ_J4yCnCn4rKU69pNwyF4gPXkuZ/view"
               className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
-              Learn more
+              Resume
             </Link>
             <Link
               href="/my-projects"
@@ -33,13 +34,13 @@ export default function Home() {
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
               My Projects
             </Link>
-            <Link
+            {/* <Link
               href="/contact-me"
               className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
               Contact Me
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
@@ -57,12 +58,12 @@ export default function Home() {
         >
           My Projects
         </Link>
-        <Link
+        {/* <Link
           href="/contact-me"
           className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
           Contact Me
-        </Link>
+        </Link> */}
       </div>
       <div className="absolute bottom-0 right-0 z-[10]">
         <Image
