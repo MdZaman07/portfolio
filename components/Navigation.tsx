@@ -29,12 +29,16 @@ const Navigation = () => {
   }, [isRouting]);
   return (
     <div
-      style={{ left: "20%" }}
-      className="absolute z-[50] -bottom-20 w-[50%] md:w-[20%] max-h-[150px] rounded-full flex justify-between items-center border bg-black  border-white px-4 py-7"
+      style={{ left: "40%" }}
+      className="absolute w-[20%] md:w-[20%] rounded-full flex justify-between items-center border bg-transparent border-white px-4 py-2"
     >
       {isRouting && <Transition />}
       {NavLinks.map((nav) => (
-        <Link key={nav.name} href={nav.link} className="mb-16 pl-4 min-w-[20%]">
+        <Link
+          key={nav.name}
+          href={nav.link}
+          className="mb-1 mt-1 pl-4 min-w-[20%]"
+        >
           <nav.icon
             className={`w-[24px] h-[24px] ${
               path === nav.name ? "text-purple-800" : "text-white"
