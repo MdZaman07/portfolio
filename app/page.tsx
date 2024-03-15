@@ -22,7 +22,7 @@ export default function Home() {
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
-              href="https://drive.google.com/file/d/1yJnrlZ_J4yCnCn4rKU69pNwyF4gPXkuZ/view"
+              href="https://drive.google.com/file/d/1sX8GMVt5sF7RLEraoxHfmU0SEj_CQha1/view?usp=sharing"
               className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               Resume
@@ -46,7 +46,7 @@ export default function Home() {
 
       <div className="absolute flex bottom-10 z-[20] right-5 flex-col md:hidden gap-5 ">
         <Link
-          href="https://drive.google.com/file/d/1yJnrlZ_J4yCnCn4rKU69pNwyF4gPXkuZ/view"
+          href="https://drive.google.com/file/d/1sX8GMVt5sF7RLEraoxHfmU0SEj_CQha1/view?usp=sharing"
           className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
         >
           Resume
