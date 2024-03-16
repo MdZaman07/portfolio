@@ -118,7 +118,7 @@ export const Projects = [
   },
   {
     title: "Digit Recognition (Zernike Moments)",
-    text: "Explored a multi-class classification problem using Python and implemented a solution using the Forward Neural Network Model.",
+    text: "Explored a multi-class classification problem and implemented a solution using the Forward Neural Network Model.",
     src: "/digit_recognition.png",
     githubUrl: "https://github.com/MdZaman07/forwardNeuralNetwork.git",
   },
