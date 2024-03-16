@@ -22,8 +22,9 @@ export default function Home() {
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
-              href="https://drive.google.com/file/d/1sX8GMVt5sF7RLEraoxHfmU0SEj_CQha1/view?usp=sharing"
+              href="https://drive.google.com/file/d/1mQI6fc1GK3ULFEExeyj_iFVR3-9hMpdl/view?usp=sharing"
               className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              target="_blank"
             >
               Resume
             </Link>
@@ -37,6 +38,7 @@ export default function Home() {
             <Link
               href="http://www.linkedin.com/in/pulok-uzzaman-06113a27b"
               className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
+              target="_blank"
             >
               Linkedin
             </Link>
@@ -46,14 +48,16 @@ export default function Home() {
 
       <div className="absolute flex bottom-10 z-[20] right-5 flex-col md:hidden gap-5 ">
         <Link
-          href="https://drive.google.com/file/d/1sX8GMVt5sF7RLEraoxHfmU0SEj_CQha1/view?usp=sharing"
+          href="https://drive.google.com/file/d/1mQI6fc1GK3ULFEExeyj_iFVR3-9hMpdl/view?usp=sharing"
           className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          target="_blank"
         >
           Resume
         </Link>
         <Link
           href="http://www.linkedin.com/in/pulok-uzzaman-06113a27b"
           className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
+          target="_blank"
         >
           Linkedin
         </Link>
