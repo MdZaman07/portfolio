@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface Props {
   image: string;
@@ -9,57 +10,6 @@ interface Props {
   githubUrl: string;
 }
 
-// const ProjectCard = ({ image, title, text, githubUrl }: Props) => {
-//   const [isFlipped, setIsFlipped] = useState(false);
-//   const [isAnimating, setIsAnimating] = useState(false);
-
-//   function handleFlip() {
-//     if (!isAnimating) {
-//       setIsFlipped(!isFlipped);
-//       setIsAnimating(true);
-//     }
-//   }
-
-//   return (
-//     <div
-//       // href={githubUrl}
-//       // target="_blank"
-//       // rel="noopener noreferrer"
-//       onClick={handleFlip}
-//       className="w-[450px] h-[280px] rounded-md cursor-pointer"
-//     >
-//       <motion.div
-//         className="flip-card-inner w-full h-full"
-//         initial={false}
-//         animate={{ rotateY: isFlipped ? 180 : 360 }}
-//         transition={{ duration: 0.6, animationDirection: "normal" }}
-//         onAnimationComplete={() => setIsAnimating(false)}
-//       >
-//         <div
-//           style={{ backgroundImage: `url(${image})` }}
-//           className="w-full h-full group relative flip-card-front bg-cover bg-center text-white rounded-lg p-4"
-//         >
-//           <div className="absolute inset-0 w-full h-full rounded-md bg-black opacity-0 group-hover:opacity-40" />
-//           <div className="absolute inset-0 w-full h-full text-[20px] pb-10 hidden group-hover:flex items-center z-[20] justify-center">
-//             Learn more &gt;
-//           </div>
-//         </div>
-//         <div
-//           style={{ backgroundImage: `url(${image})` }}
-//           className="w-full h-full group relative flip-card-back bg-cover bg-center text-white rounded-lg p-4"
-//         >
-//           <div className="absolute inset-0 w-full h-full rounded-md bg-black opacity-50 z-[-1]" />
-//           <div className="flex flex-col gap-20 py-3 z-[30]">
-//             <h1 className="text-white text-2xl font-semibold">{title}</h1>
-//             <p className="text-gray-200 text-[20px]">{text}</p>
-//           </div>
-//         </div>
-//       </motion.div>
-//     </div>
-//   );
-// };
-
-// export default ProjectCard;
 const ProjectCard = ({ image, title, text, githubUrl }: Props) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
@@ -109,9 +59,9 @@ const ProjectCard = ({ image, title, text, githubUrl }: Props) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={() => setIsLinkClicked(true)}
-      className="w-[350px] h-[280px] rounded-md cursor-pointer pr-10 pb-10"
+      className="w-[350px] h-[250px] rounded-md cursor-pointer pr-10 pb-10"
     >
-      <label className="text-white text-[20px] font-semibold flex-auto">
+      <label className="text-white text-[16px] font-semibold flex-auto">
         {title}
       </label>
       <motion.div
@@ -121,27 +71,36 @@ const ProjectCard = ({ image, title, text, githubUrl }: Props) => {
         transition={{ duration: 0.6, animationDirection: "normal" }}
         onAnimationComplete={() => setIsAnimating(false)}
       >
-        <div
+        {/* <div
           style={{
             backgroundImage: `url(${image})`,
           }}
           className="w-full h-full group relative flip-card-front bg-cover bg-center text-white rounded-lg border border-white border-opacity-15"
         >
           <div className="absolute inset-0 w-full h-full rounded-md bg-black opacity-0 group-hover:opacity-40" />
-          {/* <div className="absolute inset-0 w-full h-full text-[20px] pb-10 hidden group-hover:flex items-center z-[20] justify-center"> */}
-          {/* Learn more &gt; */}
-          {/* </div> */}
-        </div>
-
-        <div
-          // style={{ backgroundImage: `url(${image})` }}
-          className="w-full h-full group relative flip-card-back bg-gradient-to-r from-purple-500 to-red-300 bg-cover bg-center text-black rounded-lg"
-        >
-          <div className="absolute inset-0 w-full h-full rounded-md z-[-1]" />
-          <div className="flex flex-col gap-20 py-3 z-[30]">
-            <h1 className="text-black text-2xl font-semibold">{title}</h1>
-            <p className="text-black text-[20px]">{text}</p>
+          <div className="absolute inset-0 w-full h-full text-[20px] pb-10 hidden group-hover:flex items-center z-[20] justify-center">
+            Learn more &gt;
           </div>
+        </div> */}
+        <Image
+          alt="Project Image"
+          src={image}
+          // layout="fill"
+          width={350}
+          height={250}
+          objectFit="contain"
+          className="w-full h-full group relative flip-card-front rounded-lg border border-white border-opacity-15"
+        />
+
+        <div className="w-full h-full group relative flip-card-back bg-gradient-to-r from-gray-500 to-gray-300 bg-cover bg-center text-black rounded-lg">
+          <div className="absolute inset-0 w-full h-full rounded-md z-[-1]" />
+          <div className="flex flex-col gap-5 py-3 pl-3 pr-3 z-[30]">
+            <h1 className="text-black text-2xl font-semibold">{title}</h1>
+            <p className="text-black text-[16px]">{text}</p>
+          </div>
+          <p className="absolute bottom-5 right-5 text-blue-700 hover:underline text-[12px] font-semibold">
+            Learn More &gt;
+          </p>
         </div>
       </motion.div>
     </a>

@@ -86,7 +86,7 @@ const Navigation = () => {
     <div className="flex ml-4 sm:justify-center items-center pt-0 md:pt-0 mb-0 md:mb-0 ">
       <div className="relative w-full max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg">
         {isRouting && <Transition />}
-        <div className="flex justify-between items-center border bg-black border-white rounded-full p-2">
+        <div className="flex justify-between items-center border bg-black border-white z-[40] rounded-full p-2">
           {NavLinks.map((nav) => (
             <Link key={nav.name} href={nav.link}>
               <div

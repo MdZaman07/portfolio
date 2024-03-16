@@ -57,37 +57,16 @@ const Navbar = () => {
       <div className="flex items-center">
         <div className="relative w-12 h-12 md:w-16 md:h-16 pb-15 md:pb-0 my-10 sm:my-0">
           <Image
-            src="/horselogo.jpg"
+            src="/avatar.png"
             alt="logo"
             layout="fill"
             objectFit="contain"
-            className="rounded-full"
+            className="rounded-full bg-red-200"
           />
         </div>
         <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 text-[25px] md:text-2xl font-semibold ml-2 md:ml-4">
           Pulok
         </h1>
-        {/* <div className="flex ml-5 gap-5 mt-3 md:mt-0">
-          {Socials.map((social) => (
-            <a
-              key={social.name}
-              href={social.src}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-12 h-12 md:w-12 md:h-12"
-            >
-              <Image
-                src={social.src}
-                alt={social.name}
-                width={50}
-                height={50}
-                layout="responsive"
-                objectFit="contain"
-                className="rounded-full"
-              />
-            </a>
-          ))}
-        </div> */}
       </div>
 
       <Navigation />

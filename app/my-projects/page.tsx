@@ -11,7 +11,7 @@ const Page = () => {
         className=" md:mt-0 sm:mt-0 w-screen h-screen flex items-center justify-center bg-center bg-cover overflow-auto "
       >
         <div className=" max-w-[90%] max-h-[90%] pt-20 pb-20">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 py-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-5">
             {Projects.map((project, index) => (
               <>
                 <ProjectCard

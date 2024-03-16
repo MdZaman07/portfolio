@@ -35,7 +35,7 @@ export default function Home() {
               My Projects
             </Link>
             <Link
-              href="/http://www.linkedin.com/in/pulok-uzzaman-06113a27b"
+              href="http://www.linkedin.com/in/pulok-uzzaman-06113a27b"
               className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
             >
               Linkedin
@@ -52,7 +52,7 @@ export default function Home() {
           Resume
         </Link>
         <Link
-          href="/http://www.linkedin.com/in/pulok-uzzaman-06113a27b"
+          href="http://www.linkedin.com/in/pulok-uzzaman-06113a27b"
           className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
           Linkedin

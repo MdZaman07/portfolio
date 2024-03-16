@@ -106,7 +106,7 @@ export const Projects = [
   },
   {
     title: "Incident Reporting System",
-    text: "A full stack web application that allows users to report incidents and track their progress. CI and CD pipeline implemented using Azure DevOps.",
+    text: "A full stack web application that allows users to report incidents and track their progress.",
     src: "/incident_reporting.svg",
     githubUrl: "https://github.com/MdZaman07/incident_report.git",
   },
