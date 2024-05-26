@@ -30,18 +30,18 @@ export default function Home() {
             </Link>
             <Link
               href="https://drive.google.com/file/d/1m5W2bforwWYYMiDsDYt2rlOyzXjN9P_1/view?usp=share_link"
-              className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
               target="_blank"
             >
               Transcript
             </Link>
-            <Link
+            {/* <Link
               href="/my-projects"
               className="rounded-[20px] group relative bg-transparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
               My Projects
-            </Link>
+            </Link> */}
             <Link
               href="http://www.linkedin.com/in/pulok-uzzaman-06113a27b"
               className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
@@ -63,7 +63,7 @@ export default function Home() {
         </Link>
         <Link
           href="https://drive.google.com/file/d/1m5W2bforwWYYMiDsDYt2rlOyzXjN9P_1/view?usp=share_link"
-          className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
           target="_blank"
         >
           Transcript
@@ -75,12 +75,12 @@ export default function Home() {
         >
           Linkedin
         </Link>
-        <Link
+        {/* <Link
           href="/my-projects"
           className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
           My Projects
-        </Link>
+        </Link> */}
       </div>
       <div className="absolute bottom-0 right-0 z-[10] hidden lg:block ">
         <Image
