@@ -29,6 +29,13 @@ export default function Home() {
               Resume
             </Link>
             <Link
+              href="https://drive.google.com/file/d/1m5W2bforwWYYMiDsDYt2rlOyzXjN9P_1/view?usp=share_link"
+              className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              target="_blank"
+            >
+              Transcript
+            </Link>
+            <Link
               href="/my-projects"
               className="rounded-[20px] group relative bg-transparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
             >
@@ -53,6 +60,13 @@ export default function Home() {
           target="_blank"
         >
           Resume
+        </Link>
+        <Link
+          href="https://drive.google.com/file/d/1m5W2bforwWYYMiDsDYt2rlOyzXjN9P_1/view?usp=share_link"
+          className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          target="_blank"
+        >
+          Transcript
         </Link>
         <Link
           href="http://www.linkedin.com/in/pulok-uzzaman-06113a27b"
