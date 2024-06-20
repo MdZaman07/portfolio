@@ -96,7 +96,13 @@ export const Projects = [
     title: "EBuzz",
     text: "A full stack React NextJS ecommerce application offering a wide range of products and services.",
     src: "/EBuzz.png",
-    githubUrl: "https://github.com/MdZaman07/eShop",
+    githubUrl: "https://e-buzz-tau.vercel.app/",
+  },
+  {
+    title: "Contacts",
+    text: "A simple contacts application designed with materialUI",
+    src: "/FullLogo.jpg",
+    githubUrl: "https://contacts-app-rho.vercel.app",
   },
   {
     title: "Promotion Network",
