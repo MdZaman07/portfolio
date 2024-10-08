@@ -22,7 +22,7 @@ export default function Home() {
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
-              href="https://drive.google.com/file/d/1mQI6fc1GK3ULFEExeyj_iFVR3-9hMpdl/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Mn6WWPce0rFWXht1k8ZBwMvKoB8Kd5-2/view?usp=sharing"
               className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
               target="_blank"
             >
