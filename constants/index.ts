@@ -105,6 +105,12 @@ export const Projects = [
     githubUrl: "https://contacts-app-rho.vercel.app",
   },
   {
+    title: "Stock Manager",
+    text: "A portfolio management tool built with React, Next.js, Prisma ORM, Tailwind CSS, Material UI, & MongoDB. It uses Finnhub API for real-time stock data retrieval.",
+    src: "/stock.png",
+    githubUrl: "https://stock-manager-amber.vercel.app",
+  },
+  {
     title: "Promotion Network",
     text: "A full stack iOS application coded in Swift that allows users to create and share promotions with other users.",
     src: "/promotionNetwork.png",
