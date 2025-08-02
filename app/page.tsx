@@ -1,18 +1,18 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <main className="w-screen h-screen relative">
       <div
         className="flex items-center w-full h-full bg-cover bg-center"
-        style={{ backgroundImage: "url(/main-bg.webp)" }}
+        style={{ backgroundImage: 'url(/main-bg.webp)' }}
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[20px] sm:text-[50px] text-white font-semibold max-w-[200px] sm:max-w-[750px]">
             Harnessing the power of IT & creativity to shape the
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-              {" "}
+              {' '}
               Future
             </span>
           </h1>
@@ -22,7 +22,7 @@ export default function Home() {
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
-              href="https://drive.google.com/file/d/1Mn6WWPce0rFWXht1k8ZBwMvKoB8Kd5-2/view?usp=sharing"
+              href="https://drive.google.com/file/d/1AhhiRu9FJU0ypXYxqaAjqNIJ6VSlZiwh/view?usp=sharing"
               className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
               target="_blank"
             >
